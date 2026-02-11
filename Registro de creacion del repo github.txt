@@ -1,0 +1,78 @@
+Microsoft Windows [Versión 10.0.26100.7171]
+(c) Microsoft Corporation. Todos los derechos reservados.
+
+C:\Users\r.cardenal.2025>color 0a
+
+C:\Users\r.cardenal.2025>R:
+
+R:\>cd \00_RUBEN-CARDENAL\1A-2S\EEDD
+
+R:\00_RUBEN-CARDENAL\1A-2S\EEDD>git init
+Reinitialized existing Git repository in //10.97.0.21/Home_VDI$/r.cardenal.2025/00_RUBEN-CARDENAL/1A-2S/EEDD/.git/
+
+R:\00_RUBEN-CARDENAL\1A-2S\EEDD>git add README.md
+
+R:\00_RUBEN-CARDENAL\1A-2S\EEDD>git commit -m "Primer commit"
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Ejercicios/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+R:\00_RUBEN-CARDENAL\1A-2S\EEDD>color 0a
+
+R:\00_RUBEN-CARDENAL\1A-2S\EEDD>git add Ejercicios7
+fatal: pathspec 'Ejercicios7' did not match any files
+
+R:\00_RUBEN-CARDENAL\1A-2S\EEDD>git add Ejercicios/
+warning: in the working copy of 'Ejercicios/20260202-RepasoMDinamica/1/CMakeLists.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Ejercicios/20260202-RepasoMDinamica/1/main.c', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Ejercicios/20260202-RepasoMDinamica/2/CMakeLists.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Ejercicios/20260202-RepasoMDinamica/2/main.c', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Ejercicios/20260204-T1/2-PruebaOrdenes/CMakeLists.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Ejercicios/20260204-T1/2-PruebaOrdenes/main.c', LF will be replaced by CRLF the next time Git touches it
+
+R:\00_RUBEN-CARDENAL\1A-2S\EEDD>git commit -m "Segundo commit"
+[master 01780e2] Segundo commit
+ 22 files changed, 752 insertions(+)
+ create mode 100644 Ejercicios/20260202-RepasoMDinamica/1/.idea/.gitignore
+ create mode 100644 Ejercicios/20260202-RepasoMDinamica/1/.idea/.name
+ create mode 100644 Ejercicios/20260202-RepasoMDinamica/1/.idea/20260202-RepasoMDinamica.iml
+ create mode 100644 Ejercicios/20260202-RepasoMDinamica/1/.idea/editor.xml
+ create mode 100644 Ejercicios/20260202-RepasoMDinamica/1/.idea/misc.xml
+ create mode 100644 Ejercicios/20260202-RepasoMDinamica/1/.idea/modules.xml
+ create mode 100644 Ejercicios/20260202-RepasoMDinamica/1/CMakeLists.txt
+ create mode 100644 Ejercicios/20260202-RepasoMDinamica/1/main.c
+ create mode 100644 Ejercicios/20260202-RepasoMDinamica/2/.idea/.gitignore
+ create mode 100644 Ejercicios/20260202-RepasoMDinamica/2/.idea/2.iml
+ create mode 100644 Ejercicios/20260202-RepasoMDinamica/2/.idea/editor.xml
+ create mode 100644 Ejercicios/20260202-RepasoMDinamica/2/.idea/misc.xml
+ create mode 100644 Ejercicios/20260202-RepasoMDinamica/2/.idea/modules.xml
+ create mode 100644 Ejercicios/20260202-RepasoMDinamica/2/CMakeLists.txt
+ create mode 100644 Ejercicios/20260202-RepasoMDinamica/2/main.c
+ create mode 100644 Ejercicios/20260204-T1/2-PruebaOrdenes/.idea/.gitignore
+ create mode 100644 Ejercicios/20260204-T1/2-PruebaOrdenes/.idea/2.iml
+ create mode 100644 Ejercicios/20260204-T1/2-PruebaOrdenes/.idea/editor.xml
+ create mode 100644 Ejercicios/20260204-T1/2-PruebaOrdenes/.idea/misc.xml
+ create mode 100644 Ejercicios/20260204-T1/2-PruebaOrdenes/.idea/modules.xml
+ create mode 100644 Ejercicios/20260204-T1/2-PruebaOrdenes/CMakeLists.txt
+ create mode 100644 Ejercicios/20260204-T1/2-PruebaOrdenes/main.c
+
+R:\00_RUBEN-CARDENAL\1A-2S\EEDD>git branch -M main
+
+R:\00_RUBEN-CARDENAL\1A-2S\EEDD>git remote add origin https://github.com/rucardenal/eedd.git
+
+R:\00_RUBEN-CARDENAL\1A-2S\EEDD>git push -u origin main
+Enumerating objects: 26, done.
+Counting objects: 100% (26/26), done.
+Delta compression using up to 6 threads
+Compressing objects: 100% (22/22), done.
+Writing objects: 100% (26/26), 8.00 KiB | 409.00 KiB/s, done.
+Total 26 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (3/3), done.
+To https://github.com/rucardenal/eedd.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+R:\00_RUBEN-CARDENAL\1A-2S\EEDD>
