@@ -1,0 +1,58 @@
+ESPECIFICACION Punto
+	TIPO TPunto
+	//Constructuras generadoras
+	CrearPunto: Real x Real -> TPunto
+
+	//Observadoras selectoras
+	Absicsa: TPunto -> Real
+	Ordenada: TPunto -> Real
+
+	//Observadoras no selecotras
+	Distancia: TPunto x TPunto -> Real
+
+	//Constructoras no generadoras
+	Origen: -> TPunto
+
+VARIABLES
+	x1, y1, x2, y2: Real;
+	
+ECUACIONES
+	//Observadoras selectoras
+	Abscisa(CrearPunto(x1, y1)) = x1
+	Ordenada(CrearPunto(x1, y1)) = y1
+
+	//Observadoras no selectoras
+	Distancia (CrearPunto(x1, y1), CrearPunto(x2, y2)) = ((x1-x2)^2 + (y1-y2)^2)^(1/2)
+
+	//Constructoras no generadoras
+	Origen = CrearPunto(0, 0)
+
+ESPECIFICACION Circulo
+	TIPO TCirculo
+	TIPO TPunto
+	//Constructoras generadoras
+	CrearPunto: Real x Real -> TPunto
+	Crear Circulo: TPunto x Real -> TCirculo
+
+	//Observadoras selectoras
+	ObtenerCentro: TCirculo -> TPunto
+	ObtenerRadio: TCirculo -> Real
+
+	//Constructor NO GENERADOR
+	Ninguna
+
+	//Observadoras NO selectoras
+	ObtenerPerimetro: TCirculo -> Real
+	ObtenerArea: TCirculo -> Real
+
+VARIABLES
+	p (TPunto), r (Real);
+
+ECUACIONES
+	//Observadoras selectoras
+	Centro(CrearCirculo(p,r)) = p;
+	Radio(CrearCirculo(p,r)) = r;
+
+	//Observadoras NO selectoras
+	Perimetro(CrearCirculo(p,r)) = 2*PI*r;
+	Area(CrearCirculo(p,r)) = PI*(r^2)

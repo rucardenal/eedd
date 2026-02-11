@@ -1,0 +1,21 @@
+ESPECIFICACIONES Natural
+	TIPO TNatural
+	
+	//Constructoras generadoras
+	Cero: 0 -> TNatural
+	Sucesor: TNatural -> TNatural
+
+	//Observadoras selectoras
+
+	//Observadoras NO selectoras
+	EsCero: TNatural -> Booleano
+	EsPar: TNatural -> Booleano
+	EsImpar: TNatural -> Booleano
+	EsMenorOIgual: TNatural x TNatural -> Booleano
+
+	Predecesor
+	Suma
+	Resta
+	Multi
+	
+	
