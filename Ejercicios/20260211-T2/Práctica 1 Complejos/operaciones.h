@@ -9,14 +9,14 @@
 
 typedef struct {
     float real;
-    float complejo;
+    float imaginario;
 } tComplejo;
 
 void fCrearComplejo(float real, float complejo, tComplejo *pComplejo);
 
 void fParteReal(tComplejo complejo, float *pReal);
 
-void fParteComplejo(tComplejo complejo, float *pComplejo);
+void fParteImaginaria(tComplejo complejo, float *pImaginaria);
 
 void fModulo(tComplejo complejo, float *pModulo);
 
@@ -26,8 +26,8 @@ void fSumar (tComplejo complejo1, tComplejo complejo2, tComplejo *pSuma);
 
 void fRestar (tComplejo complejo1, tComplejo complejo2, tComplejo *pResta);
 
-void fMultiplicar (tComplejo complejo1, tComplejo complejo2, tComplejo *pMultiplicacion);
+void fMultiplicar (tComplejo complejo1, tComplejo complejo2, tComplejo *pProducto);
 
-void fDividir (tComplejo complejo1, tComplejo complejo2, tComplejo *pDivision);
+void fDividir (tComplejo complejo1, tComplejo complejo2, tComplejo *pCociente);
 
 #endif //OPERACIONES_H
