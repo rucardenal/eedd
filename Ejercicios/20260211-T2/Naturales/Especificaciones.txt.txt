@@ -13,9 +13,23 @@ ESPECIFICACIONES Natural
 	EsImpar: TNatural -> Booleano
 	EsMenorOIgual: TNatural x TNatural -> Booleano
 
-	Predecesor
+	//Constructoras no generadoras
+	PARCIAL (No funciona e todos los casos) Predecesor
 	Suma
 	Resta
 	Multi
+
+VARIABLES
+	n1, n2: TNatural
+
+ECUACIONES
+	EsCero(Cero) = TRUE
+	EsCero(Succ(n1)) = FALSE
+	
+	EsPar(Cero) = TRUE
+	EsPar(Succ(n1)) = FALSE
+
+	EsImpar(Cero) = FALSE
+	EsImpar(Succ(n1)) = TRUE
 	
 	
