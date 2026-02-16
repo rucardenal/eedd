@@ -20,7 +20,7 @@ void fParteImaginaria(tComplejo complejo, float *pImaginaria);
 
 void fModulo(tComplejo complejo, float *pModulo);
 
-void fConjugado (tComplejo complejo, float *pConjugado);
+void fConjugado (tComplejo complejo, tComplejo *pConjugado);
 
 void fSumar (tComplejo complejo1, tComplejo complejo2, tComplejo *pSuma);
 

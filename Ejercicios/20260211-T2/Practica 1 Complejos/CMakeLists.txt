@@ -5,4 +5,6 @@ set(CMAKE_C_STANDARD 11)
 
 add_executable(Practica_1_Complejos main.c
         operaciones.c
-        operaciones.h)
+        operaciones.h
+        circuito.c
+        circuito.h)
