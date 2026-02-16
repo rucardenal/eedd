@@ -12,7 +12,7 @@ typedef struct {
     float imaginario;
 } tComplejo;
 
-void fCrearComplejo(float real, float complejo, tComplejo *pComplejo);
+void fCrearComplejo(float real, float imaginario, tComplejo *pComplejo);
 
 void fParteReal(tComplejo complejo, float *pReal);
 
